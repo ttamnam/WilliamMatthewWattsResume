@@ -59,17 +59,17 @@
   <div class="container-fluid p-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
+      <div class="w-90">
         <span class="d-block d-lg-none justify-content-center">
         <img class="img-fluid img-profile rounded-circle pb-5 justify-content-center mb-2" src="img/Millie and I square.jpeg" alt="">
         </span>
         <span class="text-nowrap w-auto">
-        <h1 class="mb-0 d-inline d-lg-block justify-content-center">William
-          <span class="text-primary d-inline">Watts</span>
+        <h1 id="fit" class="mb-0 justify-content-center">William
+          <span id="fit" class="text-primary">Watts</span>
         </h1>
         </span>
         <div class="subheading mb-5">University of North Florida · Jacksonville, FL · (904)-990-3390 ·
-          <a href="mailto:name@email.com">WilliamMWatts@gmail.com</a>
+          <a href="subheading mailto:name@email.com">WilliamMWatts@gmail.com</a>
         </div>
         <p class="lead mb-5">I am an experienced professional with a passion for coding. I enjoy automating tasks and creating beautiful digital products.</p>
         <div class="social-icons">
@@ -243,6 +243,12 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="jquery.fittext.js"></script>
+<script type="text/javascript">
+  $("#fit").fitText(0.8);
+</script>
 
 </body>
 
